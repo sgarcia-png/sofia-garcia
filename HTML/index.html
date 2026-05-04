@@ -3,32 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>lista inteligente</title>
 </head>
 <body>
-    <h1 id="titulo">titulo</h1>
-    <p class="parrafo">parrafo 1</p>
-    <p class="parrafo">parrafo 2</p>
-    <div id="contenedor"> div </div>
-
-    <button id="btn">click me</button>
-
-    <h2>listas de tareas</h2>
-    <input id="tarea" type="text" placeholder="escribir tarea">
-    <button id="agregar">agregar tarea</button>
-    <ul id="lista"></ul>
-
-    <h2>formulario</h2>
-    <input type="text" placeholder="nombre">
-    <input type="email" placeholder="email">
-    <input type="password">
-
-    <h2>comentarios</h2>
-    <input id="comentario" type="text" placeholder="escribir comentario">
-    <button id="publicar">publicar</button>
-    <div id="comentarios"></div>
-
-    <script src="../js/scipt.js"></script>
-    <script src="../css/style.css"></script>
+    <div id="contenido">
+        <img src="../img/lista 1.jpg" class="img-1">
+         <h1>lista de tareas</h1>
+         <div class="input-conte">
+            <input id="tarea" type="text" placeholder="escribi una tarea">
+            <button id="agregar">agregar</button>
+         </div>
+         
+     <p id="error" style="color: aquamarine;"></p>
+     <ul id="lista"></ul>
+     <div class="contador">
+        <p>total: <span id="total">0</span></p>
+        <p>completadas: <span id="completadas">0</span></p>
+        <p>pendientes: <span id="pendientes">0</span></p>
+     </div>
+    
+     </div>
+    
+   <script src="../JS/script.js"></script>
 </body>
 </html>
