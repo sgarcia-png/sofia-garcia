@@ -1,0 +1,97 @@
+body{
+    background-color: #f4f4f4;
+    font-family:Arial;
+    margin:0;
+}
+
+/* HEADER */
+header{
+    background:#000;
+    color:#f4f4f4;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 30px;
+    border-bottom:1px solid grey;
+}
+.logo img{
+    width: 60px;
+}
+
+.name-pag{
+    font-weight:bold;
+}
+
+nav a{
+    color:#f4f4f4;
+    margin:0 10px;
+    text-decoration:none;
+}
+
+/* ICONOS */
+.icons-menu{
+    background:#ffffff26;
+    padding:8px;
+    border-radius:50%;
+    margin-left:10px;
+}
+
+/* CONTENIDO */
+.contenedor{
+    width:90%;
+    margin:auto;
+}
+
+/* GRID */
+.grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+/* TARJETAS */
+.tarjeta{
+    padding:20px;
+    border-radius:8px;
+}
+
+
+.tarjeta img{
+    width:40px;
+}
+
+/* COLORES */
+
+.alemania{
+    background:#1f1f1f;
+    color:white;
+}
+
+.arabia{
+    background:#27a550;
+}
+
+.argelia{
+    background:#00a067;
+}
+
+.argentina{
+    background:#9cc9f2;
+}
+
+.australia{
+    background:#efb500;
+}
+
+.austria{
+    background:#ed3d32;
+}
+
+.brasil{
+    background:#ffcf25;
+}
+
+.belgica{
+    background:#880029;
+    color:white;
+}
