@@ -1,0 +1,37 @@
+body {
+font-family: Arial;
+background-color: #c88fe9;
+padding: 20px;
+}
+
+h2 {
+color: #a9f0d8;
+}
+
+ul {
+list-style: none;
+padding: 0;
+}
+
+li {
+background: white;
+margin: 5px;
+padding: 10px;
+border-radius: 5px;
+}
+
+input, button {
+padding: 8px;
+margin: 5px;
+}
+
+#usuario {
+background: white;
+padding: 10px;
+border-radius: 5px;
+margin-top: 10px;
+}
+
+#mensaje {
+font-weight: bold;
+}
